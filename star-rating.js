@@ -21,7 +21,7 @@ module.exports = {
     '} ' +
     '</style>' +
     '</div>',
-    props: ['value', 'max'],
+    props: ['value', 'max', 'disabled'],
     computed : {
       ratings : function(){
           if(!this.max) { return [1, 2, 3, 4, 5]; }
