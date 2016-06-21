@@ -11,3 +11,5 @@
   ```<star-rating :value.sync="writeModel.rating" max="5"></star-rating>```
 
 Tested on Vue.js v1.0.25.
+
+Demo: https://jsfiddle.net/bf9arnyz/1/
